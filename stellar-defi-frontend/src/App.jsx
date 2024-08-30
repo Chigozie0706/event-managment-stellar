@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Typography, Box } from "@mui/material";
-import LiquidityPoolForm from "./components/LiquidityPoolForm";
+// import LiquidityPoolForm from "./components/LiquidityPoolForm";
 import CreateEvent from "./components/CreateEvent";
 import PurchaseTicket from "./components/PurchaseTicket";
 import ViewTickets from "./components/ViewTickets";
@@ -12,7 +12,7 @@ function App() {
         <Typography variant="h4" component="h1" gutterBottom>
           Stellar Liquidity Pool
         </Typography>
-        <LiquidityPoolForm />
+        {/* <LiquidityPoolForm /> */}
 
         <CreateEvent />
         <PurchaseTicket />
